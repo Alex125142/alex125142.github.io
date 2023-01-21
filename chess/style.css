@@ -11,12 +11,11 @@ width:100%;
 background-color:teal;
 text-align:center;
 z-index:10;
-}
-p {
-   font-family: 'VintagePropagandistRegular';
+      font-family: 'VintagePropagandistRegular';
    font-weight: normal;
    font-style: normal;
 }
+
 
 img {
 margin-left: 5px;
