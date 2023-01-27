@@ -1,1 +1,71 @@
 
+h1 {
+ font-family: 'WaltographRegular';
+   font-weight: normal;
+   font-style: normal;;
+color: #8300FF;
+text-align: center;
+}
+
+body {
+width: 90%;
+margin: 0 auto;
+background-image: url(" https://i.kym-cdn.com/entries/icons/mobile/000/025/999/Screen_Shot_2018-04-24_at_1.33.44_PM.jpg");
+}
+
+#feature, .article {
+height: 10em;
+margin-bottom: 1em;
+}
+
+#content {
+overflow: auto;}
+
+#nav,#footer {
+color: Black;
+text-align: center;
+margin: 1%;}
+
+#feature{
+  background-color: #00FFDC; 
+background-image: url(" https://wonder-day.com/wp-content/uploads/2020/10/wonder-day-among-us-png-28.png");
+ background-size:contain;
+ background-position: right;
+ background-repeat:no-repeat;
+text-align: center;
+margin: 1%;}
+
+.column1{
+width: 31.3%;
+float: left;
+margin: 1%;
+background-color: #0070FF;
+  text-align: center;
+}
+.column2 {
+width: 31.3%;
+float: left;
+margin: 1%;
+  background-color: #DCFF00;
+text-align: center;
+}
+.column3 {
+width: 31.3%;
+float: left;
+margin: 1%;
+background-color: #FF0000;
+text-align: center;
+}
+
+li {
+display: inline;
+padding: 0.5em;}
+
+#nav {
+background-color: #219580;
+padding: 0.5em 0;}
+#footer {
+background-color: #000CFF;
+padding: 0.5em 0;}
+
+
