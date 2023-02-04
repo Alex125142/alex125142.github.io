@@ -7,7 +7,7 @@ color: #fd2cff;
 text-align: center;}
 
 body {
-width: 90%;
+width: 100%;
 margin:  auto;
 background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2438013375536940927/D370DBF7BFC83ED36F783F08A598FFF3E71A1D61/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
 background-size: cover;
@@ -26,20 +26,15 @@ padding: 0.5em 0;}
 
 #overlay{
   width: 100%;
-  height: 100%;
   position: fixed;
   
 }
 
 form{
-  max-width: 550px;
-  width: 90%;
+  width: 200px;
+  margin: 50px auto;
   background: #450EFF;
-  margin: 17vh auto 0 auto;
   padding: 40px;
-  border-radius: 3px;
-  box-sizing: border-box;
-  
 }
 
 label{
