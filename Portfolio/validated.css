@@ -47,12 +47,82 @@ object-fit: cover;
 
 }
 
-#artifact1{
+#home{
  padding: 10px;
  background-color: #fcf4c2;
 }
 
-#artifact2{
+#homecss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#about{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#aboutcss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#coursework{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#courseworkcss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#assignment{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#assignmentcss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#artifacts{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#artifactscss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#creative{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#creativecss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#contact{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#contactcss{
+ padding: 10px;
+ background-color: #f4c2fc;
+}
+
+#validated{
+ padding: 10px;
+ background-color: #fcf4c2;
+}
+
+#validatedcss{
  padding: 10px;
  background-color: #f4c2fc;
 }
