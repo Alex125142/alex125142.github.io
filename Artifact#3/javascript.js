@@ -10,7 +10,7 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
 for (i=1;i<=pHeight;i++){
 rLine +="<p>";
-  
+ 
 for (x=1; x<=pHeight-i;x++){
    rLine +="<span class='space'>" + pSymbol + "</span>"; 
 }
