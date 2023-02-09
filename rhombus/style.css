@@ -1,1 +1,15 @@
-
+#upLeft{
+  float: left;
+}
+#upRight{
+  float: left;
+}
+#downLeft{
+  float: left;
+}
+#downRight{
+  float: left;
+}
+.space{
+  color: white
+}
