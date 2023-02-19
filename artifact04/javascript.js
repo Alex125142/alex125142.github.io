@@ -78,6 +78,7 @@ function validateForm() {
   errorMessage += "<p>Invalid Zip</p>";
   }
     }
+
     document.getElementById("error").innerHTML = errorMessage;
     return (validFirstName && validLastName && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validCountry && validZip);
 }
