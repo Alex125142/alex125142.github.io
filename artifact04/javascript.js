@@ -66,7 +66,7 @@ function validateForm() {
   }else {
     errorMessage += "<p>Invalid Address</p>";
   }
-    if(city.lenght > 0){
+    if(city.length > 0){
         validCity = true;
     } else {
         errorMessage += "<p>Invalid City</p>";
