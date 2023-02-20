@@ -66,6 +66,11 @@ function validateForm() {
   }else {
     errorMessage += "<p>Invalid Address</p>";
   }
+    if(city.length > 0){
+    validCity = true;
+  }else {
+    errorMessage += "<p>Invalid City</p>";
+  }
    if (country.length > 0) {
         validCountry = true;
   } else {
