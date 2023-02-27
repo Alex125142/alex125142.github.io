@@ -77,15 +77,14 @@ function validateForm() {
         errorMessage += "<p>Invalid Country</p>";
  }
     if (country === "USA") {
-        if (zip.length <= 5 && zip.length > 0) {
+        if (zip.length <=5 && zip.length > 0){
             validZip = true;
-        } else {
-            errorMessage += "<p>Invalid zip code</p>";
-        }
+        }else { errorMessage += "<p>Invalid zip code</p>";
+              }
+    else { validZip = true;
+         }
     }
-    else {
-        validZip = true;
-    }
+    
     document.getElementById("error").innerHTML = errorMessage;
     return (validFirstName && validLastName && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validCountry && validZip);
 }
