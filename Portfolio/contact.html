@@ -26,7 +26,7 @@
 			</div>
 		</div>
       <div id="overlay">
-        <form action="/Portfolio/thankyou.html">
+        <form action="/Portfolio/thankyou.html" onsubmit="return validateForm();">
           <label for="name">Name:</label>
           <input type="text" id="name" placeholder="Your Name">
           
@@ -43,6 +43,7 @@
           <input type="submit" value="Submit">
           <p id="success"></p>
 	</div>
+		<div id="errorMessages"></div>
         </form>
       </div>
       <script src="contact.js"></script>
