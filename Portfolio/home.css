@@ -25,13 +25,7 @@ height: 100vh;
 #feature, .article {
 height: 10em;
 margin-bottom: 1em;
-  
-    line-height: 200px;
-  height: 200px;
-  text-align: center;
-    line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
+
 }
 
 #content {
@@ -45,7 +39,7 @@ margin: 1%;}
 #feature{
   background-color: #450EFF; 
 background-image: url(" https://wonder-day.com/wp-content/uploads/2020/10/wonder-day-among-us-png-28.png");
- background-size: 100px 145px;
+  background-size: contain;
  background-position: right;
  background-repeat:no-repeat;
 text-align: center;
