@@ -29,3 +29,25 @@ background-color: #450EFF;
 margin: 1%;
 padding: 0.5em 0;}
 
+
+
+
+#feature{
+  background-color: #450EFF; 
+text-align: center;
+margin: 1%;
+ height: 10em;
+
+}
+
+#About{
+  line-height: 200px;
+  height: 200px;
+  width: 40%;
+  margin: auto
+}
+#About p{
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
