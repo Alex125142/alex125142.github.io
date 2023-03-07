@@ -27,3 +27,15 @@ padding: 0.5em;}
 background-color: #450EFF;
 margin: 1%;
 padding: 0.5em 0;}
+
+#interest{
+	text-align:left;
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color: #450EFF;
+    width: 60%;
+	margin: auto;
+	margin-top:2%;
+	margin-bottom:2%;
+	font-size:16px;
+	text-align:center}
