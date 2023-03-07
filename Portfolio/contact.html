@@ -22,30 +22,36 @@
            				      	<li><a href="https://alex125142.github.io/Portfolio/artifacts.html">Artifacts</a></li>
 						<li><a href="https://alex125142.github.io/Portfolio/creative.html">Creative Page</a></li>
                         			<li><a href="https://alex125142.github.io/Portfolio/contact.html">Contact Me</a></li>  
+                  		  		<li><a href="https://alex125142.github.io/Portfolio/validated.html">Validated</a></li>
 				</ul>
 			</div>
 		</div>
-      <div id="overlay">
-        <form action="/Portfolio/thankyou.html" onsubmit="return validateForm();">
-          <label for="Name">Name:</label>
-          <input type="text" id="Name" placeholder="Your Name">
-          
-          
-          <label for="Email">Email:</label>
-          <input type="text" id="Email" placeholder="Your Email">
-          
-          
-          <label for="Comment">Comments:</label>
-          <textarea id="Comment" placeholder="Comments" rows="6"></textarea>
-          
-          
-          <div class="center">
-          <input type="submit" value="Submit">
-          <p id="success"></p>
-	</div>
-		<div id="errorMessages"></div>
-        </form>
-      </div>
+      <div id="content">
+		<div id="form">
+		 <form action="thankyou.html" onsubmit="return validateForm();">
+		 <p>
+                <label for='Name'>Name:</label>
+              <br>
+                <input type="text" id="Name" placeholder="Name" name="Name" >
+            </p>
+		<p>
+                <label for='Email'>Email:</label>
+              <br>
+                <input type="text" id="Email" placeholder="Email" name="Email" >
+            </p>
+		<p>
+                <label for='Comments'>Comments:</label>
+              <br>
+    <textarea id="Comment" placeholder="Comments" rows="6"></textarea>			
+           <div class="warning" id="errorMessage"></div>
+		<p>
+					<input type="submit" id="submit" name="submit" value="Submit">
+				</p>
+				<div class="warning" id="submiterror"></div>
+				<div id="errorMessages"></div>
+			</form>
+		</div>
+		</div>
       <script src="contact.js"></script>
 	</body>
 </html>
