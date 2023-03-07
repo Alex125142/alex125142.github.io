@@ -32,7 +32,6 @@ padding: 0.5em 0;}
 
 
 #feature, .article {
-height: 20em;
 margin-bottom: 1em;
 
 }
@@ -42,6 +41,7 @@ overflow: auto;
 margin: 0 auto;}
 
 #feature{
+  height: 15em;
   background-color: #450EFF; 
 text-align: center;
 margin: 1%;
