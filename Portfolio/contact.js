@@ -6,7 +6,7 @@ function name(){
    if (name==="null" || name==="") {
        errorMessages += "<p>The first name is required.</p>";
        } else if (name.match("^[a-zA-Z ,.'-]+$")===null) {
-           errorMessages += "<p>First name has invalid characters</p>";
+           errorMessages += "<p>Invalid Name</p>";
        } else {
                validName = true;
        };
@@ -21,7 +21,7 @@ var errorMessages = "";
 var atpos = userEmail.indexOf("@");
 var dotpos = userEmail.lastIndexOf(".");
 if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-   errorMessages += "<p>Invalid email.</p>";
+   errorMessages += "<p>Invalid email</p>";
 } else
    return true;
  document.getElementById("errorMessage").innerHTML = errorMessages;
@@ -32,7 +32,7 @@ var validComments=false;
 var comments = document.getElementById("Comments").value;
 var errorMessages = "";
 if (comments==="null" || comments==="") {
-       errorMessages += "<p>Comments are required.</p>";
+       errorMessages += "<p>Comments are required</p>";
         }
 		else {
                return true
